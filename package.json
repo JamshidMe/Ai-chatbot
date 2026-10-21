@@ -1,0 +1,27 @@
+{
+  "name": "ai-chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modular multilingual (uz/en/ru) AI chatbot. Mock LLM provider by default.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,web -c cyan,green \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "npm run dev --workspace @chatbot/server",
+    "dev:web": "npm run dev --workspace @chatbot/web",
+    "build": "npm run build --workspace @chatbot/web",
+    "typecheck": "npm run typecheck --workspace @chatbot/server && npm run typecheck --workspace @chatbot/web",
+    "start": "npm run start --workspace @chatbot/server"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "concurrently": "^10.0.6",
+    "typescript": "^5.9.3"
+  }
+}

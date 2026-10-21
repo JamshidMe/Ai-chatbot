@@ -1,0 +1,114 @@
+{
+  "demo": true,
+  "note": "SAMPLE DATA ONLY. This dataset exists so the chat pipeline can be exercised end-to-end. It is NOT a real company. Replace it by placing curated JSON files in server/data/company/ before going live.",
+  "company": {
+    "name": "Demo Coffee Roasters (sample data)"
+  },
+  "documents": [
+    {
+      "id": "about-en",
+      "title": "About the company",
+      "lang": "en",
+      "tags": ["about", "company"],
+      "text": "Demo Coffee Roasters is a sample company used to demonstrate the assistant. It is not a real business. The sample catalogue contains two products: House Blend beans and a manual grinder."
+    },
+    {
+      "id": "about-uz",
+      "title": "Kompaniya haqida",
+      "lang": "uz",
+      "tags": ["about", "company"],
+      "text": "Demo Coffee Roasters — bu yordamchini sinash uchun yaratilgan namunaviy kompaniya, haqiqiy biznes emas. Namunaviy katalogda ikkita mahsulot bor: House Blend donador kofe va qo'l tegirmoni."
+    },
+    {
+      "id": "about-ru",
+      "title": "О компании",
+      "lang": "ru",
+      "tags": ["about", "company"],
+      "text": "Demo Coffee Roasters — это демонстрационная компания для проверки ассистента, а не реальный бизнес. В демонстрационном каталоге два товара: зерновой кофе House Blend и ручная кофемолка."
+    },
+    {
+      "id": "prices-en",
+      "title": "Prices and products",
+      "lang": "en",
+      "tags": ["price", "product", "catalog"],
+      "text": "Sample prices: House Blend beans cost 120000 UZS per kilogram. The manual grinder costs 450000 UZS. Prices are sample values and may change."
+    },
+    {
+      "id": "prices-uz",
+      "title": "Narxlar va mahsulotlar",
+      "lang": "uz",
+      "tags": ["price", "product", "catalog"],
+      "text": "Namunaviy narxlar: House Blend donador kofe bir kilogrammi 120000 so'm. Qo'l tegirmoni 450000 so'm. Narxlar namunaviy va o'zgarishi mumkin."
+    },
+    {
+      "id": "prices-ru",
+      "title": "Цены и товары",
+      "lang": "ru",
+      "tags": ["price", "product", "catalog"],
+      "text": "Демонстрационные цены: зерновой кофе House Blend — 120000 сум за килограмм. Ручная кофемолка — 450000 сум. Цены приведены для примера и могут меняться."
+    },
+    {
+      "id": "hours-en",
+      "title": "Business hours",
+      "lang": "en",
+      "tags": ["hours", "schedule"],
+      "text": "Sample business hours: Monday to Friday 09:00-18:00, Saturday 10:00-15:00, closed on Sunday. Times are in Tashkent (UTC+5)."
+    },
+    {
+      "id": "hours-uz",
+      "title": "Ish vaqti",
+      "lang": "uz",
+      "tags": ["hours", "schedule"],
+      "text": "Namunaviy ish vaqti: dushanbadan jumagacha 09:00-18:00, shanba 10:00-15:00, yakshanba dam olish kuni. Vaqtlar Toshkent vaqti (UTC+5)."
+    },
+    {
+      "id": "hours-ru",
+      "title": "Часы работы",
+      "lang": "ru",
+      "tags": ["hours", "schedule"],
+      "text": "Демонстрационные часы работы: с понедельника по пятницу 09:00-18:00, суббота 10:00-15:00, воскресенье — выходной. Время указано по Ташкенту (UTC+5)."
+    },
+    {
+      "id": "delivery-en",
+      "title": "Delivery and returns policy",
+      "lang": "en",
+      "tags": ["delivery", "shipping", "return", "warranty"],
+      "text": "Sample policy: delivery inside Tashkent takes 1-2 working days and is free above 300000 UZS. Unopened goods may be returned within 14 days. The grinder carries a 12-month warranty."
+    },
+    {
+      "id": "delivery-uz",
+      "title": "Yetkazib berish va qaytarish siyosati",
+      "lang": "uz",
+      "tags": ["delivery", "shipping", "return", "warranty"],
+      "text": "Namunaviy siyosat: Toshkent ichida yetkazib berish 1-2 ish kunini oladi va 300000 so'mdan yuqori buyurtmalar uchun bepul. Ochi Imagan tovar 14 kun ichida qaytariladi. Tegirmonga 12 oylik kafolat beriladi."
+    },
+    {
+      "id": "delivery-ru",
+      "title": "Доставка и возврат",
+      "lang": "ru",
+      "tags": ["delivery", "shipping", "return", "warranty"],
+      "text": "Демонстрационная политика: доставка по Ташкенту занимает 1-2 рабочих дня и бесплатна при заказе от 300000 сум. Неоткрытый товар можно вернуть в течение 14 дней. На кофемолку действует гарантия 12 месяцев."
+    },
+    {
+      "id": "contact-en",
+      "title": "Contact details",
+      "lang": "en",
+      "tags": ["contact", "phone", "email", "address"],
+      "text": "Sample contact details: phone +998 00 000 00 00, email hello@example.com, office at 1 Example Street, Tashkent. These are placeholders, not real contact details."
+    },
+    {
+      "id": "contact-uz",
+      "title": "Bog'lanish ma'lumotlari",
+      "lang": "uz",
+      "tags": ["contact", "phone", "email", "address"],
+      "text": "Namunaviy aloqa ma'lumotlari: telefon +998 00 000 00 00, email hello@example.com, ofis Toshkent shahri, Example ko'chasi 1. Bu ma'lumotlar namunaviy, haqiqiy emas."
+    },
+    {
+      "id": "contact-ru",
+      "title": "Контактные данные",
+      "lang": "ru",
+      "tags": ["contact", "phone", "email", "address"],
+      "text": "Демонстрационные контакты: телефон +998 00 000 00 00, email hello@example.com, офис: Ташкент, улица Example, 1. Это примеры, а не реальные контакты."
+    }
+  ]
+}
